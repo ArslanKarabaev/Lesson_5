@@ -9,7 +9,7 @@ public class Main {
 
         Hero[] heroes;
         heroes = createHeroes();
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < heroes.length; i++) {
             System.out.println("Hero's health " + heroes[i].getHealth() + " Hero's damage " + heroes[i].getDamage() + " Hero's SP " + heroes[i].getSuperPower());
         }
     }
